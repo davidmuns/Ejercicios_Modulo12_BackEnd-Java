@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "4868474a-d710-4e0c-9c6e-5aeeb7c0fc36",
+		"name": "restcountries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "response",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.countrylayer.com/v2/all",
+					"protocol": "https",
+					"host": [
+						"api",
+						"countrylayer",
+						"com"
+					],
+					"path": [
+						"v2",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

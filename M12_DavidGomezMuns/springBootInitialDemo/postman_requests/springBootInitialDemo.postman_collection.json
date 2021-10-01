@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "0c602604-91ce-44c7-bf57-f5bdf16923e2",
+		"name": "springBootInitialDemo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "\"hello world\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "\"hello, <NOM>\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/David",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"David"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "entorno local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}{{port}}/David",
+					"host": [
+						"{{IP}}{{port}}"
+					],
+					"path": [
+						"David"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
